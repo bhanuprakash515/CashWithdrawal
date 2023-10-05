@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+}
+
+.container {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.card {
+  background-color: #150b3e;
+  padding: 20px;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 10px;
+}
+.icon-btn {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.heading-name {
+  color: #c7d2fe;
+  padding-left: 10px;
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.balance-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance-para {
+  color: #585076;
+  font-size: 25px;
+}
+.amount-bal {
+  color: #d4d2db;
+  font-family: 'roboto';
+  font-size: 25px;
+  padding: 10px;
+}
+.in-rupees {
+  color: #585076;
+}
+
+.withdraw-heading {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+.para {
+  color: #585076;
+  padding-top: 15px;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.button-ul {
+  margin: 15px;
+}
